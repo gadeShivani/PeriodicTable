@@ -33,8 +33,8 @@ td:hover {
 
 .details{
   position: absolute;
-  top: 80px;
-  left: 30%;
+  top: 40px;
+  left: 24%;
   width: 250px;
   height: 20px;
   border: 3px solid #73AD21;
@@ -56,6 +56,9 @@ td:hover {
 }
 .h2.white span {
 	font-size: 18px;
+}
+ul{
+  list-style-type: none;
 }
 ul .legend {
 	margin: 8px 0 1em 0;
@@ -121,6 +124,43 @@ ul#legend .lanthanide .summary, #elements .lanthanide .summary, #elements .lanth
 ul#legend .actinide .summary, #elements .actinide .summary, #elements .actinide .details, #elements .details .actinide {
 	background-color: #cb9c8a;
 }
+/*Colors for periodic table*/
+.upper-elements-row .metalloid{
+  	background-color: #E08E7C;
+}
+.upper-elements-row .actinide{
+  background-color: #cb9c8a;
+}
+.upper-elements-row .lanthanide{
+  background-color: #e1cead;
+}
+.upper-elements-row .nobelGas{
+  background-color: #cdce8c;
+
+}
+.upper-elements-row .nonMetal{
+  	background-color: #A7CAD3;
+}
+.upper-elements-row .halogen{
+  background-color: #ACACC6;
+}
+.upper-elements-row .postTransitionMetal{
+  background-color: #EEC19C;
+
+}
+.upper-elements-row .alkaliMetal{
+  background-color: #90AD84;
+
+}
+.upper-elements-row .transitionMetal{
+  background-color: #E8AAB6;
+}
+.upper-elements-row .alkalineEarthMetal{
+  background-color: #FFE497;
+
+}
+
+
 .ui-dialog-contain {
   width: 92.5%;
   max-width: 500px;
