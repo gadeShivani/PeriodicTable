@@ -1,0 +1,352 @@
+<html>
+<head>
+<title>Periodic Table of Elements, in CSS!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+<script
+	src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+<script src="scripts.js"></script>
+<link rel="stylesheet"
+	href='https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- main rows -->
+
+	<div data-role="page" id="mainPage">
+		<header>
+			<h1 style="backgroung-color:green">Periodic Table of Elements</h1>
+		</header>
+		<table class='upper-elements'>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell" style="opacity:5;background-color:#90AD84" >H</td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell">He</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell">Li</td>
+				<td class="upper-elements-cell">Be</td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell">B</td>
+				<td class="upper-elements-cell"style="opacity: 1;background-color:#90AD84">C</td>
+				<td class="upper-elements-cell"style="opacity: 1;background-color:#90AD84">N</td>
+				<td class="upper-elements-cell"style="opacity: 1;background-color:#90AD84">O</td>
+				<td class="upper-elements-cell">F</td>
+				<td class="upper-elements-cell">Ne</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell">Na</td>
+				<td class="upper-elements-cell">Mg</td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell">Al</td>
+				<td class="upper-elements-cell">Si</td>
+				<td class="upper-elements-cell"style="opacity: 1;background-color:#90AD84">P</td>
+				<td class="upper-elements-cell"style="opacity: 1;background-color:#90AD84">S</td>
+				<td class="upper-elements-cell">Cl</td>
+				<td class="upper-elements-cell">Ar</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell">K</td>
+				<td class="upper-elements-cell">Ca</td>
+				<td class="upper-elements-cell">Sc</td>
+				<td class="upper-elements-cell">Ti</td>
+				<td class="upper-elements-cell">V</td>
+				<td class="upper-elements-cell">Cr</td>
+				<td class="upper-elements-cell">Mn</td>
+				<td class="upper-elements-cell">Fe</td>
+				<td class="upper-elements-cell">Co</td>
+				<td class="upper-elements-cell">Ni</td>
+				<td class="upper-elements-cell">Cu</td>
+				<td class="upper-elements-cell">Zn</td>
+				<td class="upper-elements-cell">Ga</td>
+				<td class="upper-elements-cell">Ge</td>
+				<td class="upper-elements-cell">As</td>
+				<td class="upper-elements-cell"style="opacity: 1;background-color:#90AD84">Se</td>
+				<td class="upper-elements-cell">Br</td>
+				<td class="upper-elements-cell">Kr</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell">Rb</td>
+				<td class="upper-elements-cell">Sr</td>
+				<td class="upper-elements-cell">Y</td>
+				<td class="upper-elements-cell">Zr</td>
+				<td class="upper-elements-cell">Nb</td>
+				<td class="upper-elements-cell">Mo</td>
+				<td class="upper-elements-cell">Tc</td>
+				<td class="upper-elements-cell">Ru</td>
+				<td class="upper-elements-cell">Rh</td>
+				<td class="upper-elements-cell">Pd</td>
+				<td class="upper-elements-cell">Ag</td>
+				<td class="upper-elements-cell">Cd</td>
+				<td class="upper-elements-cell">In</td>
+				<td class="upper-elements-cell">Sn</td>
+				<td class="upper-elements-cell">Sb</td>
+				<td class="upper-elements-cell">Te</td>
+				<td class="upper-elements-cell">I</td>
+				<td class="upper-elements-cell">Xe</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell">Cs</td>
+				<td class="upper-elements-cell">Ba</td>
+				<td href="#secondaryPage" class="upper-elements-cell" >*</td>
+				<td class="upper-elements-cell">Hf</td>
+				<td class="upper-elements-cell">Ta</td>
+				<td class="upper-elements-cell">W</td>
+				<td class="upper-elements-cell">Re</td>
+				<td class="upper-elements-cell">Os</td>
+				<td class="upper-elements-cell">Ir</td>
+				<td class="upper-elements-cell">Pt</td>
+				<td class="upper-elements-cell">Au</td>
+				<td class="upper-elements-cell">Hg</td>
+				<td class="upper-elements-cell">Tl</td>
+				<td class="upper-elements-cell">Pb</td>
+				<td class="upper-elements-cell">Bi</td>
+				<td class="upper-elements-cell">Po</td>
+				<td class="upper-elements-cell">At</td>
+				<td class="upper-elements-cell">Rn</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell">Fr</td>
+				<td class="upper-elements-cell">Ra</td>
+				<td href="#secondaryPage" class="upper-elements-cell">*</td>
+				<td class="upper-elements-cell">Rf</td>
+				<td class="upper-elements-cell">Db</td>
+				<td class="upper-elements-cell">Sg</td>
+				<td class="upper-elements-cell">Bh</td>
+				<td class="upper-elements-cell">Hs</td>
+				<td class="upper-elements-cell">Mt</td>
+				<td class="upper-elements-cell">Ds</td>
+				<td class="upper-elements-cell">Rg</td>
+				<td class="upper-elements-cell">Cn</td>
+				<td class="upper-elements-cell">Nh</td>
+				<td class="upper-elements-cell">Fl</td>
+				<td class="upper-elements-cell">Mc</td>
+				<td class="upper-elements-cell">Lv</td>
+				<td class="upper-elements-cell">Ts</td>
+				<td class="upper-elements-cell">Og</td>
+			</tr>
+    </br>
+      <tr class='upper-elements-row'>
+				<td class="upper-elements-cell empty-cell" ></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+			</tr>
+    </br>
+      <tr class='upper-elements-row'>
+				<td class="upper-elements-cell  empty-cell"></td>
+				<td class="upper-elements-cell  empty-cell"></td>
+				<td class="upper-elements-cell  empty-cell"></td>
+				<td class="upper-elements-cell">La</td>
+				<td class="upper-elements-cell">Ce</td>
+				<td class="upper-elements-cell">Pr</td>
+				<td class="upper-elements-cell">Nd</td>
+				<td class="upper-elements-cell">Pm</td>
+				<td class="upper-elements-cell ">Sm</td>
+				<td class="upper-elements-cell">Eu</td>
+				<td class="upper-elements-cell">Gd</td>
+				<td class="upper-elements-cell ">Tb</td>
+				<td class="upper-elements-cell">Dy</td>
+				<td class="upper-elements-cell">Ho</td>
+				<td class="upper-elements-cell">Er</td>
+				<td class="upper-elements-cell">Tm</td>
+				<td class="upper-elements-cell">Yb</td>
+				<td class="upper-elements-cell">Lu</td>
+			</tr>
+			<tr class='upper-elements-row'>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+				<td class="upper-elements-cell empty-cell"></td>
+        <td class="upper-elements-cell">Ac</td>
+				<td class="upper-elements-cell">Th</td>
+				<td class="upper-elements-cell">Pa</td>
+				<td class="upper-elements-cell">U</td>
+				<td class="upper-elements-cell">Np</td>
+				<td class="upper-elements-cell ">Pu</td>
+				<td class="upper-elements-cell">Am</td>
+				<td class="upper-elements-cell">Cm</td>
+				<td class="upper-elements-cell ">Bk</td>
+				<td class="upper-elements-cell">Cf</td>
+				<td class="upper-elements-cell">Es</td>
+				<td class="upper-elements-cell">Fm</td>
+				<td class="upper-elements-cell">Md</td>
+				<td class="upper-elements-cell">No</td>
+				<td class="upper-elements-cell">Lr</td>
+			</tr>
+		</table>
+    <a href="https://www.youtube.com/playlist?list=PL7A1F4CF36C085DE1">Watch videos for more details on Elements of Periodic Table</a>
+		<a href="#colorLegend" class="ui-btn details" data-rel="dialog"
+			data-transition="pop" data-rel="back">Click here to see color
+			legends</a>
+	</div>
+
+	<!-- color legend -->
+	<div data-role="page" id="colorLegend">
+		<div
+			class="ui-page-dialog-contain ui-overlay-shadow ui-corner-all ui-body-a"
+			role="dialog">
+			<div data-role="header">
+				<h2 class="white">Groups</h2>
+			</div>
+			<div role="main" class="ui-content">
+				<ul id="legend">
+					<li><a class="actinide">
+							<div class="summary">
+								<!-- -->
+							</div> Actinides
+					</a></li>
+					<li><a class="lanthanide">
+							<div class="summary">
+								<!-- -->
+							</div> Lanthanides
+					</a></li>
+					<li><a class="halogen">
+							<div class="summary">
+								<!-- -->
+							</div> Halogens
+					</a></li>
+					<li><a class="metalloid">
+							<div class="summary">
+								<!-- -->
+							</div> Metalloids
+					</a></li>
+					<li><a class="alkaliMetal">
+							<div class="summary">
+								<!-- -->
+							</div> Alkali Metals
+					</a></li>
+					<li><a class="nonMetal">
+							<div class="summary"></div> Non-Metals
+					</a></li>
+					<li><a class="nobleGas">
+							<div class="summary">
+								<!-- -->
+							</div> Noble Gases
+					</a></li>
+					<li><a class="alkalineEarthMetal">
+							<div class="summary">
+								<!-- -->
+							</div> Alkaline Earth Metals
+					</a></li>
+					<li><a class="postTransitionMetal">
+							<div class="summary">
+								<!-- -->
+							</div> Post-Transition Metals
+					</a></li>
+					<li><a class="transitionMetal">
+							<div class="summary">
+								<!-- -->
+							</div> Transition Metals
+					</a></li>
+				</ul>
+				<a href="#mainPage" data-role="button" data-rel="back"
+					data-theme="b" class="ui-btn ui-shadow ui-corner-all ui-widget"
+					role="button">Close</a>
+			</div>
+		</div>
+	</div>
+	<!-- other two rows -->
+	<div data-role="page" id="secondaryPage">
+		<table class='lower-elements'>
+			<tr class='lower-elements-row'>
+				<td class="lower-elements-cell  empty-cell"></td>
+				<td class="lower-elements-cell  empty-cell"></td>
+				<td class="lower-elements-cell  empty-cell"></td>
+				<td class="lower-elements-cell">La</td>
+				<td class="lower-elements-cell">Ce</td>
+				<td class="lower-elements-cell">Pr</td>
+				<td class="lower-elements-cell">Nd</td>
+				<td class="lower-elements-cell">Pm</td>
+				<td class="lower-elements-cell ">Sm</td>
+				<td class="lower-elements-cell">Eu</td>
+				<td class="lower-elements-cell">Gd</td>
+				<td class="lower-elements-cell ">Tb</td>
+				<td class="lower-elements-cell">Dy</td>
+				<td class="lower-elements-cell">Ho</td>
+				<td class="lower-elements-cell">Er</td>
+				<td class="lower-elements-cell">Tm</td>
+				<td class="lower-elements-cell">Yb</td>
+				<td class="lower-elements-cell">Lu</td>
+			</tr>
+			<tr class='lower-elements-row'>
+				<td class="lower-elements-cell empty-cell"></td>
+				<td class="lower-elements-cell empty-cell"></td>
+				<td class="lower-elements-cell empty-cell"></td>
+        <td class="lower-elements-cell">Ac</td>
+				<td class="lower-elements-cell">Th</td>
+				<td class="lower-elements-cell">Pa</td>
+				<td class="lower-elements-cell">U</td>
+				<td class="lower-elements-cell">Np</td>
+				<td class="lower-elements-cell ">Pu</td>
+				<td class="lower-elements-cell">Am</td>
+				<td class="lower-elements-cell">Cm</td>
+				<td class="lower-elements-cell ">Bk</td>
+				<td class="lower-elements-cell">Cf</td>
+				<td class="lower-elements-cell">Es</td>
+				<td class="lower-elements-cell">Fm</td>
+				<td class="lower-elements-cell">Md</td>
+				<td class="lower-elements-cell">No</td>
+				<td class="lower-elements-cell">Lr</td>
+			</tr>
+		</table>
+		<a href="#colorLegend" class="ui-btn details" data-rel="dialog"
+			data-transition="pop" data-rel="back">Click here to see color
+			legends</a>
+	</div>
+	<!-- details dialog -->
+	<div data-role="page" id="detailsPage">
+		<div id='put-data-elements'></div>
+		<a href="#mainPage" data-role="button" data-rel="back" data-theme="b"
+			class="ui-btn ui-shadow ui-corner-all ui-widget" role="button">Back</a>
+	</div>
+</body>
+</html>

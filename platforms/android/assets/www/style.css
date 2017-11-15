@@ -1,0 +1,131 @@
+.upper-elements{
+  width:100%;
+}
+.upper-elements-row{
+  width:100%;
+}
+.upper-elements-cell{
+  width:5.55%;
+  text-align:center;
+  border: 1px solid black;
+
+}
+.upper-elements-cell2{
+  width:5.55%;
+  text-align:center;
+  border: 1px solid black;
+
+}
+td:hover {
+        background-color:#f1f1f1;
+        }
+
+
+
+.td {
+        cursor: pointer;
+        background-color: rgb(150,150,150);
+        }
+.upper-elements-row > .empty-cell{
+  border:none;
+  visibility:hidden;
+}
+
+.details{
+  position: absolute;
+  top: 80px;
+  left: 30%;
+  width: 250px;
+  height: 20px;
+  border: 3px solid #73AD21;
+
+}
+.a{
+  position: absolute;
+  bottom: 40px;
+  left: 30%;
+  width: 250px;
+  height: 20px;
+  border: 3px solid #73AD21;
+}
+
+.h2.white {
+	font-size: 20px;
+	padding-left: 7px;
+	margin-top: .75em;
+}
+.h2.white span {
+	font-size: 18px;
+}
+ul .legend {
+	margin: 8px 0 1em 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+ul .legend li {
+	float: left;
+	width: 24%;
+	padding: 0.125em 0;
+}
+ul.legend a {
+	cursor: pointer;
+	display: block;
+	color: white;
+	padding: .6em 0 .6em 0;
+}
+.legend a:hover {
+	text-decoration: underline;
+}
+.legend .white {
+	color: #fff;
+	font-size: 18px;
+}
+ul#legend .summary {
+	height: 28px;
+	width: 28px;
+	display: inline-block;
+	margin: -8px 8px 0 8px;
+	vertical-align: middle;
+	border: 1px solid #563134;
+	background: white url('/courses/chemistry/periodic_table/images/background2.png') bottom left repeat-x;
+	opacity: 1.0;
+}
+ul#legend .alkaliMetal .summary, #elements .alkaliMetal .summary, #elements .alkaliMetal .details, #elements .details .alkaliMetal {
+	background-color: #90AD84;
+}
+ul#legend .alkalineEarthMetal .summary, #elements .alkalineEarthMetal .summary, #elements .alkalineEarthMetal .details, #elements .details .alkalineEarthMetal {
+	background-color: #FFE497;
+}
+ul#legend .transitionMetal .summary, #elements .transitionMetal .summary, #elements .transitionMetal .details, #elements .details .transitionMetal {
+	background-color: #E8AAB6;
+}
+ul#legend .postTransitionMetal .summary, #elements .postTransitionMetal .summary, #elements .postTransitionMetal .details, #elements .details .postTransitionMetal {
+	background-color: #EEC19C;
+}
+ul#legend .metalloid .summary, #elements .metalloid .summary, #elements .metalloid .details, #elements .details .metalloid {
+	background-color: #E08E7C;
+}
+ul#legend .nonMetal .summary, #elements .nonMetal .summary, #elements .nonMetal .details, #elements .details .nonMetal {
+	background-color: #A7CAD3;
+}
+ul#legend .halogen .summary, #elements .halogen .summary, #elements .halogen .details, #elements .details .halogen {
+	background-color: #ACACC6;
+}
+ul#legend .nobleGas .summary, #elements .nobleGas .summary, #elements .nobleGas .details, #elements .details .nobleGas {
+	background-color: #cdce8c;
+}
+ul#legend .lanthanide .summary, #elements .lanthanide .summary, #elements .lanthanide .details, #elements .details .lanthanide {
+	background-color: #e1cead;
+}
+ul#legend .actinide .summary, #elements .actinide .summary, #elements .actinide .details, #elements .details .actinide {
+	background-color: #cb9c8a;
+}
+.ui-dialog-contain {
+  width: 92.5%;
+  max-width: 500px;
+  margin: 10% auto 15px auto;
+  padding: 0;
+  position: relative;
+  top: -55px;
+}
